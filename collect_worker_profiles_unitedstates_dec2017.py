@@ -19,7 +19,7 @@ __email__ = 'eurekafoong2020@u.northwestern.edu'
 
 class UpworkQuerier: 
     def __init__(self):
-        self.log = open('json_files/trial2_log_upwork_data_collection_2017_12_12_unitedstates_allskills.txt', 'a') # Creating a log
+        self.log = open('logs/log_upwork_data_collection_2017_12_12_unitedstates_allskills.txt', 'a') # Creating a log
         self.log.write("We have started collecting data!" + "\n")
 
         # Connect to the database 
@@ -80,7 +80,7 @@ class UpworkQuerier:
                 # If worker in the U.S. then add to the database
                 if(detailed_info["dev_country"] == "United States"):
                     print "American"
-                    self.cur.execute("INSERT INTO trial2_upwork_unitedstates_allskills_2017_12_12 (user_id, date_collected, user_name, worker, detailed_info) VALUES (%s, %s, %s, %s, %s);",
+                    self.cur.execute("INSERT INTO upwork_unitedstates_allskills_2017_12_12 (user_id, date_collected, user_name, worker, detailed_info) VALUES (%s, %s, %s, %s, %s);",
                                 [user_id, date_collected, user_name, psycopg2.extras.Json(worker), psycopg2.extras.Json(detailed_info)])
                     self.conn.commit()
                 else:
