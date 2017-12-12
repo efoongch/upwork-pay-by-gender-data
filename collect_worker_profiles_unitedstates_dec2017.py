@@ -19,7 +19,7 @@ __email__ = 'eurekafoong2020@u.northwestern.edu'
 
 class UpworkQuerier: 
     def __init__(self):
-        self.log = open('/logs/log_upwork_data_collection_2017_12_12_unitedstates_allskills.txt', 'a') # Creating a log
+        self.log = open('log_upwork_data_collection_2017_12_12_unitedstates_allskills.txt', 'a') # Creating a log
         self.log.write("We have started collecting data!" + "\n")
 
         # Connect to the database 
