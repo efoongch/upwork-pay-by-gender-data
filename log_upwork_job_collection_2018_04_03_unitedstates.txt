@@ -1,0 +1,13 @@
+We have started collecting data!
+Failed to parse job contractor: ~01b3a2ee6e7cd246d1 because of 'country'
+Failed to parse job contractor: ~01381d112204a7c8e5 because of 'country'
+Failed to parse job contractor: ~01eeef9cc95ee6a1ea because of 'country'
+Failed to parse job contractor: ~01bbe8bbd3e821d19e because of 'country'
+Failed to parse job contractor: ~016274d26805b67fa2 because of 'country'
+Failed to parse job contractor: ~01347d1353064b2cfe because of 'country'
+Failed to parse job contractor: ~0147af062a0300cc23 because of 'country'
+Failed to parse job contractor: ~01a0f25329b92b934e because of 'country'
+Interrupted at offset 8We have started collecting data!
+We have started collecting data!
+Failed to collect data at offset 13000because of HTTP Error 502: Code N/A: N/A
+Interrupted at offset 15689
